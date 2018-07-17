@@ -13,13 +13,10 @@ h1 {
 .head, 
 .left_arm, 
 .right_arm, 
-
+.torso,
 .left_leg, 
 .right_leg {
 	 background-color: #5f9;
-}
-.torso{
-	background-color: rgb(72, 160, 160);
 }
 
 
@@ -90,7 +87,7 @@ h1 {
 
 .left_leg, .right_leg { 
 	width: 20px; 
-	height: 60px;
+	height: 70px;
 	border-radius: 50px; 
 } 
 
