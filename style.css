@@ -13,13 +13,15 @@ h1 {
 .head, 
 .left_arm, 
 .right_arm, 
-.torso,
+
 .left_leg, 
 .right_leg {
-	 background-color: #5f9;
+	 background-color: #F5E050;
 }
 
-
+.torso{
+	 background-color: #6D9CC6;
+}
 .head { 
 	width: 100px; 
 	margin: 0 auto; 
