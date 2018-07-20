@@ -149,6 +149,9 @@ h1 {
 		height: 200px;
 		margin: 10px;
 		transition: all 1s;
+		
+			border-radius: 5%;
+	
 	}
 	
 	img:hover {
@@ -156,4 +159,42 @@ h1 {
 	}
 	h3{
 		text-align: center
+	}
+	.logo {
+		display: inline-block;
+		vertical-align: center;
+		width: 200px;
+		height: 100px;
+		margin-left: 70px;
+		margin-right: 80px;
+		margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+	}
+	
+	.Aboutlogo {
+		display: inline-block;
+		vertical-align: center;
+		width: 60px;
+		height: 75px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+	}
+
+	.contactlogo {
+		display: inline-block;
+		vertical-align: center;
+		width: 60px;
+		height: 75px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+	}
+	.portfoliologo {
+		display: inline-block;
+		vertical-align: center;
+		width: 60px;
+		height: 75px;
+		margin-left: 10px;
+		margin-right: 100px;
+		margin-top: 0px;    /* if you want it vertically middle of the navbar. */
 	}
