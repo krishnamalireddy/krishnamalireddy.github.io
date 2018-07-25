@@ -81,7 +81,7 @@ img:last-of-type {
 }
 
 .slide:nth-child(2n) .title {
-  margin-left: 0;
+  margin-left: 15%;
   margin-right: auto;
 }
 
@@ -100,30 +100,30 @@ img:last-of-type {
   color: #fff;
   text-shadow: 0 2px 2px #000;
 }
-
-#title {
-  background-image: url('https://i2.wp.com/childphotocompetition.com/wp-content/uploads/2016/05/Monika-Serek.jpg');
+#slide0:before {
+  background-image: url("https://cn.pling.com/img/e/a/9/8/6fe4bb926f48f7ef104b56f95d53e999c3cd.jpg");
+  transform: translateZ(-1px) scale(2);
+}
+#slide1 {
+  background-image: url('https://images6.alphacoders.com/412/thumb-1920-412093.jpg');
   z-index:2;
 }
 
-#title h1 {
+#slide1 h1 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
 
 }
 
-#slide1:before {
-  background-image: url("http://richbell.com/wp-content/uploads/2014/04/Charleston-Commercial-Photography-1-2.jpg");
-  transform: translateZ(-1px) scale(2);
-}
 
-#slide2 {
-  background-image: url("http://shreeniclix.com/wp-content/uploads/1-1.jpg");
+
+#slide3 {
+  background-image: url('http://www.1366x768.net/large/201111/762.jpg');
   z-index:2;
 }
 
-#slide3:before {
-  background-image: url('https://hdwallsource.com/img/2014/9/photography-28285-29006-hd-wallpapers.jpg');
+#slide2:before {
+  background-image: url('http://kb4images.com/images/image-wallpaper/37045874-image-wallpaper.jpg');
   transform: translateZ(-1px) scale(2);
 }
 
