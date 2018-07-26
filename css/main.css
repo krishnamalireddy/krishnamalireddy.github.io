@@ -135,7 +135,6 @@ img:last-of-type {
   background-image: url('http://kb4images.com/images/image-wallpaper/37045874-image-wallpaper.jpg');
   transform: translateZ(-1px) scale(2);
 max-height:100vh;
-width:100vw;
 }
 
 #slide4 {
