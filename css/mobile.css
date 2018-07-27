@@ -114,13 +114,13 @@ img:last-of-type {
 }
 #slide1 {
   background: rgba(240,230,220, .7);
-  z-index:2;
+ 
   
 }
 
 #slide1 h1 {
- transform: translateZ(.25px) scale(.75);
- transform-origin: 50% 100%;
+/* transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;*/
 
 }
 
@@ -128,12 +128,12 @@ img:last-of-type {
 
 #slide3 {
   background: rgba(240,230,220, .7);
-  z-index:2;
+ /* z-index:2;*/
 }
 
 #slide2:before {
   background: rgba(240,230,220, .7);
-  transform: translateZ(-1px) scale(2);
+ /* transform: translateZ(-1px) scale(2);*/
 max-height:100vh;
 }
 
