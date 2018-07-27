@@ -74,7 +74,7 @@ img:last-of-type {
   width:100vw;
 }
 
-.title {
+.title1, .title2, .title3 {
   width: 50%;
   padding: 5%;
   border-radius: 5px;
