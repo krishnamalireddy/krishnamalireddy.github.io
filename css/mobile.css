@@ -28,7 +28,7 @@ p {
 
 .slide {
   position: relative;
-  padding: 25vh 10%;
+  
   min-height: 100vh;
   width: 100vw;
   box-sizing: border-box;
@@ -50,13 +50,13 @@ img {
   position: absolute;
   top: 50%;
   left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
+  width: 160px;
+  height: 120px;
+ 
+  padding: 4px;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .7);
 }
 
 img:last-of-type {
@@ -75,7 +75,8 @@ img:last-of-type {
 }
 
 .title {
-  
+  max-height: 100vh;
+  width: 70%;
   padding: 5%;
   border-radius: 2px;
   background: rgba(240,230,220, .7);
