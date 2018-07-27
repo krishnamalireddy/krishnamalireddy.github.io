@@ -69,13 +69,13 @@ p {
   margin-right: 0;
 }
 
-.slide, .slide:before {
+.slide {
   background: 50% 50% / cover;  
 }
 
 .header {
   text-align: center;
-  font-size: 175%;
+  font-size: 155%;
   color: #fff;
 
     
@@ -104,7 +104,7 @@ p {
  /* z-index:2;*/
 }
 
-#slide2:before {
+#slide2 {
   background: rgba(240,230,220, .7);
  /* transform: translateZ(-1px) scale(2);*/
 max-height:100vh;
