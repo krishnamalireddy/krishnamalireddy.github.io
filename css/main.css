@@ -82,12 +82,12 @@ img:last-of-type {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-.slide:nth-child(2n) .title {
+.slide:nth-child(2n) .title{
   margin-left: 15%;
   margin-right: auto;
 }
 
-.slide:nth-child(2n+1) .title {
+.slide:nth-child(2n+1) .title2 {
   margin-left: auto;
   margin-right: 0;
 }
