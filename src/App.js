@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Routeslink from './routes';
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import { HashRouter as Router } from 'react-router-dom';
+
 import { Link } from 'react-router-dom';
 import logo from './kc-logos/kc-logos.png';
 import DarkModeToggle from './darkmode';
