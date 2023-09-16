@@ -15,19 +15,13 @@ function App() {
   return (
     <Router>
     <div className={isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}>
-      <nav className="navbar background md:px-20">
+      <nav className="flex justify-around	align-middle items-center navbar background md:px-20">
         <div className="logo">
           <img src={logo} className="logo_kc max-w-[10rem]" alt="kc" />
         </div>
         <ul className="nav-list flex justify-between items-center align-middle">
           <li>
             <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/privacy">Privacy</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
