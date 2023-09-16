@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 function InstagramProfile() {
   const [userData, setUserData] = useState(null);
-  const accessToken = 'IGQWRQaEp5Q2ZAfbXlTWDR4WlZAaWVdDaHZAJaURTQkttQnd4YWJVMDd4WUdJcGcwVFJ4OEFyS202SFRQZAkZANVzVLVl9qbGl2cUk4cnpsQWotVVNyX1Awc05zTmlRWUVjelVwaGxoeFotR3VrY25sd2Vya3BxU0tDem8ZD'; // Replace with your Instagram Graph API access token
+  const accessToken = ''; // Replace with your Instagram Graph API access token
 
   useEffect(() => {
     // Fetch the Instagram user data with follower and following counts

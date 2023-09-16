@@ -24,7 +24,7 @@ const ProfileApp = () => {
                             Besides having a full time carrier in IT industry, I love travelling and discussing about Share market.
                         </p>
                             <div className="profile_buttons">
-                              <a className="px-8 py-3 border border-white-500 border-solid bg-transparent hover:bg-orange-700 rounded" href="/krishna_resume.pdf" target="_blank"> Download Resume</a>
+                              <a className="px-8 py-3 border border-white-500 border-solid bg-transparent hover:bg-orange-700 rounded" href={process.env.PUBLIC_URL + '/Krishna_resume.pdf'} target="_blank"> Download Resume</a>
                             </div>
                     </div>
                 </div>
