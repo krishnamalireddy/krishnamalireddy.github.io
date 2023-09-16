@@ -1,41 +1,46 @@
-import React, { useState }  from 'react';
-import ProfileApp from './website';
-import logo from './kc-logos/kc-logos.png'; // gives image path
-import DarkModeToggle from './darkmode'; // Replace with the correct path
+import React, { useState } from 'react';
+import Routeslink from './routes';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import { Link } from 'react-router-dom';
+import logo from './kc-logos/kc-logos.png';
+import DarkModeToggle from './darkmode';
 
-
-  
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+  const toggleDarkMode = () => {
+    setIsDarkMode((prevMode) => !prevMode);
+  };
 
-    const toggleDarkMode = () => {
-      setIsDarkMode((prevMode) => !prevMode);
-    };
-
-
-    return (
-        <div className={isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}>
-        <nav className="navbar background md:px-20">
-                <ul className="nav-list flex justify-between items-center align-middle">
-                    <div className="logo">
-                        <img src={logo} className="logo_kc max-w-[10rem]" alt="kc" />
-                    </div>
-                    <li><a href="#courses">Courses</a></li>
-                    <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-
-                </ul>
-            </nav>
-  
-            <ProfileApp />
-
-            <footer className="footer">
-      <div className="container mx-auto text-footer">
-        <p>&copy; All rights are reserved 2023</p>
-      </div>
-    </footer>
+  return (
+    <Router>
+    <div className={isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}>
+      <nav className="navbar background md:px-20">
+        <div className="logo">
+          <img src={logo} className="logo_kc max-w-[10rem]" alt="kc" />
         </div>
-    )
+        <ul className="nav-list flex justify-between items-center align-middle">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/privacy">Privacy</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+        <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      </nav>
+      <Routeslink />
+      <footer className="footer">
+        <div className="container mx-auto text-footer">
+          <p>&copy; All rights are reserved 2023</p>
+        </div>
+      </footer>
+    </div>
+    </Router>
+  );
 }
-  
+
 export default App;

@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
-import profile_img from './img/profile_picc.png'; // gives image path
+import '../App.css';
+import profile_img from '../img/profile_picc.png'; // gives image path
 import Lottie from "lottie-react";
-import dev_profile_lottie from "./img/dev_profile_lottie.json";
-import dev_profile from "./img/profile_dev.json";
-import { techLogos, toolsLogos } from './techlist';
+import dev_profile_lottie from "../img/dev_profile_lottie.json";
+import { techLogos, toolsLogos } from '../techlist';
 
 
 const ProfileApp = () => {
@@ -12,7 +11,7 @@ const ProfileApp = () => {
     <div className="" >
         
         <div className="section_divs px-8 md:px-0">
-        {   <section className="profile_banne flex  container py-16 mx-auto">
+        {   <section className="profile_banner flex  container py-16 mx-auto">
                 <div className="profile_banner_head content-center	 md:flex items-center columns-2xs justify-around	align-middle ">
                         <img src={profile_img} className="profile_logo md:w-1/2 md:max-w-xs rounded-full" alt="krishna" />
                         <div className="profile_banner md:w-1/2 mt-8">
