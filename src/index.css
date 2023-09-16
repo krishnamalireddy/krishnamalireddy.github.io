@@ -2,16 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.horizontal-website{
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    height: 100vh;
-}
-.horizontal-scroll{
-    flex: 0 0 100vw;
-    scroll-snap-align: start;
-    height: 100vh;
-}
