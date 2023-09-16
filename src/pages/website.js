@@ -23,7 +23,7 @@ const ProfileApp = () => {
 
                           I hail from the serene shores of Kakinada, but my current journey has led me to Bengaluru, the city that never sleeps, where I earn a living as dedicated software developer during the day and engage in vampire-slaying adventures at night. In addition to my full-time IT career, I also enjoy travelling, Playing Sports and having intriguing discussions about the stock market.                        </p>
                             <div className="profile_buttons">
-                              <a className="px-8 py-3 border border-white-500 border-solid bg-transparent hover:bg-orange-700 rounded" href={process.env.PUBLIC_URL + '/Krishna_resume.pdf'} target="_blank"> Download Resume</a>
+                              <a className="px-8 py-3 border border-white-500 border-solid bg-transparent hover:bg-orange-700 rounded" href={process.env.PUBLIC_URL + '/Krishna_resume.pdf'} target="_blank" rel="noopener noreferrer"> Download Resume</a>
                             </div>
                     </div>
                 </div>

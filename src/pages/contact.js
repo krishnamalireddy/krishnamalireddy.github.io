@@ -1,9 +1,9 @@
 import React from 'react';
-import InstagramProfile from "./insta.js";
+import LandbotChatbot from "./chatbot.js";
 
 const ContactUs = () => {
     return (
-        <InstagramProfile /> );
+        <LandbotChatbot /> );
   };
   
   export default ContactUs;

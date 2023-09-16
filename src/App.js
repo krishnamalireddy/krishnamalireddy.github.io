@@ -20,8 +20,13 @@ function App() {
           <img src={logo} className="logo_kc max-w-[10rem]" alt="kc" />
         </div>
         <ul className="nav-list flex justify-between items-center align-middle">
-          <li>
+          <li className="px-8">
             <Link to="/">Home</Link>
+          </li>
+          <li className="px-8">
+            <a href="/contact" target="_blank" rel="noopener noreferrer">
+              Contact
+            </a>
           </li>
         </ul>
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
