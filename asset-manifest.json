@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6068031e.css",
+    "main.js": "/static/js/main.7983cd12.js",
+    "static/js/787.5c467991.chunk.js": "/static/js/787.5c467991.chunk.js",
+    "static/media/profile_picc.png": "/static/media/profile_picc.5c4b171eb7d1ae4db455.png",
+    "static/media/kc-logos.png": "/static/media/kc-logos.7f4b53d5ed4757bdfcdb.png",
+    "static/media/jenkins.svg": "/static/media/jenkins.67e41840981aa33fafbfb661f6e869c2.svg",
+    "static/media/sass.svg": "/static/media/sass.a17505e3004c556710e1efb5c1042295.svg",
+    "static/media/wordpress.svg": "/static/media/wordpress.e905f036255b4442f99996f3d1317308.svg",
+    "static/media/github.svg": "/static/media/github.cd6be0239b099fa9f3302cad6c6e6492.svg",
+    "static/media/react.svg": "/static/media/react.2d80508d388f8a99ffd2129955e481b2.svg",
+    "static/media/js.svg": "/static/media/js.19600440c8c62e3de974e2bba991871f.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.99ff40c99633dbe9199a405ec4ff4f65.svg",
+    "static/media/tailwind-css.svg": "/static/media/tailwind-css.4b50b0f58ae10c9cbccd8ad4c70b4d84.svg",
+    "index.html": "/index.html",
+    "static/media/vs-code.svg": "/static/media/vs-code.feab1f2b5e068c7e1ab02acc59a58f61.svg",
+    "static/media/figma.svg": "/static/media/figma.a3d47863d7685dbe4ee0aabf183bc9c2.svg",
+    "static/media/css.svg": "/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/html.svg": "/static/media/html.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "main.6068031e.css.map": "/static/css/main.6068031e.css.map",
+    "main.7983cd12.js.map": "/static/js/main.7983cd12.js.map",
+    "787.5c467991.chunk.js.map": "/static/js/787.5c467991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6068031e.css",
+    "static/js/main.7983cd12.js"
+  ]
+}
