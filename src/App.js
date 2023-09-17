@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Routeslink from './Pageroutes';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Newtab from './Components/opennewtab.js';
-import { Link } from 'react-router-dom';
+import MobileNav from './Components/mobileview.js';
 import logo from './kc-logos/kc-logos.png';
 import DarkModeToggle from './darkmode';
 
@@ -19,23 +18,9 @@ function App() {
       <nav className="flex justify-around	align-middle items-center navbar background md:px-20">
         <div className="logo">
           <img src={logo} className="logo_kc max-w-[10rem]" alt="kc" />
-        </div>
-        <ul className="nav-list flex justify-between items-center align-middle">
-          <li className="px-8">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="px-8">
-          <Link to="/contact/">
-              Contact
-            </Link>
-          </li>
-          <li className="px-8">
-            <Link to="/privacy-policy/">
-              Privacy Policy
-            </Link>
-          </li>
-        </ul>
-        <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+        </div>        <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+
+       <MobileNav />
       </nav>
       <Routeslink />
       <footer className="footer">

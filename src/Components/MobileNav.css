@@ -1,0 +1,72 @@
+
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+    /* Mobile Navigation Container */
+.mobile-nav {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+  
+  /* Menu Toggle Icon */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+  }
+  
+  /* Navigation List */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #0074d9;
+  }
+  /* Display the menu toggle icon */
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Hide the navigation list by default */
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 16px 24px;
+    background: #000;
+    height:100%
+  }
+
+  /* Show the navigation list when the menu is open */
+  .nav-list.active {
+    display: flex;
+  }
+}
