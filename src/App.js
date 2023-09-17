@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Routeslink from './routes';
-import { HashRouter as Router } from 'react-router-dom';
+import Routeslink from './Pageroutes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import { Link } from 'react-router-dom';
 import logo from './kc-logos/kc-logos.png';
@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL}>
     <div className={isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}>
       <nav className="flex justify-around	align-middle items-center navbar background md:px-20">
         <div className="logo">
@@ -25,9 +25,9 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li className="px-8">
-            <a href="/contact" target="_blank" rel="noopener noreferrer">
+            <Link to="/contact/" target="_blank" rel="noopener noreferrer">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />

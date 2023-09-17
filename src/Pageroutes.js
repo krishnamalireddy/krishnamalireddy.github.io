@@ -8,17 +8,10 @@ import NoPage from './pages/NoPage';
 function Routeslink() {
   return (
     <Routes>
-      <Route
-        path="*"
-        element={
-          <Routes>
-            <Route index element={<ProfileApp />} />
-            <Route path="/privacy" element={<Privacypolicy />} />
-            <Route path="/contact" element={<ContactUs />} />
-            <Route path="*" element={<NoPage />} />
-          </Routes>
-        }
-      />
+      <Route path="/" element={<ProfileApp />} />
+      <Route path="/privacy/" element={<Privacypolicy />} />
+      <Route path="/contact/" element={<ContactUs />} />
+      <Route path="*" element={<NoPage />} />
     </Routes>
   );
 }
