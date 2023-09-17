@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Routeslink from './Pageroutes';
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import Newtab from './Components/opennewtab.js';
 import { Link } from 'react-router-dom';
 import logo from './kc-logos/kc-logos.png';
 import DarkModeToggle from './darkmode';
@@ -25,8 +25,11 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li className="px-8">
-            <Link to="/contact/" target="_blank" rel="noopener noreferrer">
-              Contact
+          <Newtab to="/contact" buttonText="contact" />
+          </li>
+          <li className="px-8">
+            <Link to="/privacy-policy/">
+              Privacy Policy
             </Link>
           </li>
         </ul>

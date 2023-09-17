@@ -47,7 +47,7 @@ function Privacypolicy() {
        <p className="text-start">We may update this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. Any updates will be posted on this page with the revised effective date.</p>
        <p className="text-start"><strong >8. Contact Us</strong></p>
        <p className="text-start">If you have questions or concerns about our privacy practices or this Privacy Policy, please contact us at:</p>
-       <p className="text-start">Krishna Chaitanya Malireddy</p>
+       <p className="text-start"><a href="mailto:krishnamalireddy7@gmail.com">krishnamalireddy7@gmail.com</a></p>
         </div>
       }
     </div>
