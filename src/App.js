@@ -25,7 +25,9 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li className="px-8">
-          <Newtab to="/contact" buttonText="contact" />
+          <Link to="/contact/">
+              Contact
+            </Link>
           </li>
           <li className="px-8">
             <Link to="/privacy-policy/">
