@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Routeslink from './Pageroutes';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import MobileNav from './Components/mobileview.js';
 import logo from './kc-logos/kc-logos.png';
 import DarkModeToggle from './darkmode';
@@ -23,9 +24,16 @@ function App() {
        <MobileNav />
       </nav>
       <Routeslink />
-      <footer className="footer">
-        <div className="container mx-auto text-footer">
+      <footer className="footer py-8">
+        <div className="container mx-auto text-footer justify-between flex ">
           <p>&copy; All rights are reserved 2023</p>
+          <ul classname="list-none">
+            <li classname="px-8 py-4 md:py-0">
+              <Link to="/privacy-policy/" >
+                Privacy Policy
+              </Link>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>

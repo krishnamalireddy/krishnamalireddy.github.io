@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import profile_img from '../img/profile_picc.png'; // gives image path
+import profile_img from '../img/profile_picc.png'; 
 import Lottie from "lottie-react";
 import dev_profile_lottie from "../img/dev_profile_lottie.json";
 import { techLogos, toolsLogos } from '../techlist';
@@ -11,14 +11,14 @@ const ProfileApp = () => {
     <div className="" >
         
         <div className="section_divs px-8 md:px-0">
-        {   <section className="profile_banner flex  container py-16 mx-auto">
+        {   <section className="profile_banner flex  container py-8 md:py-16 mx-auto">
                 <div className="profile_banner_head content-center	 md:flex items-center columns-2xs justify-around	align-middle ">
                         <img src={profile_img} className="profile_logo md:w-1/2 md:max-w-xs rounded-full" alt="krishna" />
                         <div className="profile_banner md:w-1/2 mt-8">
                         <p className="text-[0.875rem]">
                           Front End Developer
                         </p>
-                        <h2 className="font-bold text-[2.5rem] md:text-[3rem] mb-2">Krishna Chaitanya Malireddy</h2>
+                        <h2 className="font-bold text-[2.2rem] md:text-[3rem] mb-2">Krishna Chaitanya Malireddy</h2>
                         <p className="text-[1rem] text-base	 mb-10"> 
                         I hail from the serene shores of Kakinada, but my current journey has led me to Bengaluru, the city that never sleeps, where I earn a living as dedicated software developer during the day and engage in vampire-slaying adventures at night. In addition to my full-time IT career, I also enjoy travelling, Playing Sports and having intriguing discussions about the stock market.                        </p>
                             <div className="profile_buttons">
@@ -29,7 +29,7 @@ const ProfileApp = () => {
             </section>}
         </div>
         <div className="section_divs px-8 md:px-0">
-          {            <section className="section container py-16 mx-auto">
+          {            <section className="section container py-8 md:py-16 mx-auto">
                 <div className="box-main">
                     <div className="">
                     <h1 className="text-[2.5rem] sm:text-[4rem] py-6" id="program">
@@ -53,7 +53,7 @@ const ProfileApp = () => {
             </section>}
         </div>
         <div className="section_divs px-8 md:px-0">
-          {            <section className="section container py-16 mx-auto">
+          {            <section className="section container py-8 md:py-16 mx-auto">
                 <div className="box-main">
                     <div className="">
                     <h1 className=" text-[2.5rem] sm:text-[4rem] py-6" id="program">
@@ -68,37 +68,38 @@ const ProfileApp = () => {
                         </div>
                         <div className="md:w-1/2 text-base my-6">
                             <div>
-                                <h2 className='text-[1rem] mb-4'>Languages I speak:</h2>         
-                                <div className='flex justify-between flex-col sm:flex-row'>
+                                <h2 className='text-[1.5rem] mb-4'>Languages I speak:</h2>         
+                                <div className='flex justify-between flex-row'>               
                                     {techLogos.map((tech, index) => (
+                                    <div key={index} className="md:w-auto w-1/3 p-2"  >
                                         <img
-                                        key={index} // Make sure to provide a unique key for each element when mapping
+                                        key={index}
                                         src={tech.src}
                                         className="tech_logo md:max-w-[64px]"
                                         alt={tech.alt}
                                         />
+                                    </div>
                                     ))}
                                 </div>
                             </div>
-
-
-                                <div>
-                                <h2 className='text-[1rem] mt-10 mb-4'>Tools I Use:</h2>
-                                    <div className='flex justify-between flex-col sm:flex-row'>
+                            <div>
+                                <h2 className='text-[1.5rem] mt-10 mb-4'>Tools I Use:</h2>
+                                    <div className='flex justify-between flex-row'>
                                         {toolsLogos.map((tool, index) => (
-                                        <img
-                                            key={index} // Make sure to provide a unique key for each element when mapping
-                                            src={tool.src}
-                                            alt={tool.alt}
-                                            className="tech_logo md:max-w-[64px]"
-                                        />
+                                        <div key={index} className="md:w-auto w-1/3 p-2" >
+                                            <img
+                                                key={index} 
+                                                src={tool.src}
+                                                alt={tool.alt}
+                                                className="tech_logo md:max-w-[64px]"
+                                            />
+                                        </div>
                                         ))}
                                     </div>
-                                    </div>
-
+                            </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </section>}
         </div>
     </div>

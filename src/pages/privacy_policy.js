@@ -1,4 +1,3 @@
-// pages/privacy.js
 import React from 'react';
 
 function Privacypolicy() {
@@ -6,7 +5,7 @@ function Privacypolicy() {
     <div className='section_divs px-8 md:px-0'>
       {
        <div className='container py-16 mx-auto'><p className="text-start"><strong >Privacy Policy for krishnamalireddy.github.io</strong></p>
-       <p className="text-start"><strong >Effective Date: [Date]</strong></p>
+       <p className="text-start"><strong >Effective Date: 1 Jan 2023</strong></p>
        <p className="text-start"><strong >1. Introduction</strong></p>
        <p className="text-start">Welcome to the website of Krishna Chaitanya Malireddy (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). This Privacy Policy outlines how we collect, use, and protect your personal information when you visit <u><a href="https://krishnamalireddy.github.io/" target="_new" >https://krishnamalireddy.github.io/</a></u> (the &quot;Website&quot;). Your privacy is important to us, and we are committed to safeguarding your personal data.</p>
        <p className="text-start"><strong >2. Information We Collect</strong></p>

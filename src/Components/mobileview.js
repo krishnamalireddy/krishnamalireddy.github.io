@@ -31,11 +31,6 @@ function MobileNav() {
             Contact
           </Link>
         </li>
-        <li className="px-8 py-4 md:py-0">
-          <Link to="/privacy-policy/" onClick={closeMenu}>
-            Privacy Policy
-          </Link>
-        </li>
       </ul>
     </div>
   );
