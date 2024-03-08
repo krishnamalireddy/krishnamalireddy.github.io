@@ -28,7 +28,7 @@ const ProfileApp = () => {
                 </div>
             </section>}
         </div>
-        <div className="section_divs px-8 md:px-0">
+        <div className="section_divs px-8 ">
           {            <section className="section container py-8 md:py-16 mx-auto">
                 <div className="box-main">
                     <div className="">
@@ -52,7 +52,7 @@ const ProfileApp = () => {
                 </div>
             </section>}
         </div>
-        <div className="section_divs px-8 md:px-0">
+        <div className="section_divs px-8 ">
           {            <section className="section container py-8 md:py-16 mx-auto">
                 <div className="box-main">
                     <div className="">
